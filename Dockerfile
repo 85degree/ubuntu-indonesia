@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:12.04
 MAINTAINER "Abdul Gaffur A Dama"
 
 RUN sed -i 's/archive.ubuntu.com/kambing.ui.ac.id/g' \
