@@ -14,4 +14,4 @@ RUN sed -i 's/kambing.ui.ac.id/mirror.poliwangi.ac.id/g' \
 
 RUN apt-get update
 
-RUN apt-get install -y build-essetial
+RUN apt-get install -y build-essential
