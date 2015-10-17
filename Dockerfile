@@ -13,3 +13,5 @@ RUN sed -i 's/kambing.ui.ac.id/mirror.poliwangi.ac.id/g' \
     /etc/apt/sources.list.d/poliwangi.list
 
 RUN apt-get update
+
+RUN apt-get install -y build-essential
